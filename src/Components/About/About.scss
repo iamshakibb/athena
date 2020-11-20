@@ -1,0 +1,25 @@
+@import "../../Color/Color";
+
+.aboutContainer {
+  background-image: url(https://i.ibb.co/fkrRGTR/Path-74.png);
+  background-color: $PrimaryBackgroundColor;
+  background-position: center;
+  background-size: cover;
+  h6 {
+    font-weight: bolder;
+  }
+
+  .aboutBox {
+    position: relative;
+    padding: 20px;
+    transform: scale(0.9);
+    transition: 1500ms ease;
+    &:hover {
+      background-color: white;
+      z-index: 999;
+      border-radius: 75px 5px 75px 5px;
+      transform: scale(1);
+      box-shadow: 2px 2px 11px 0px#cde2d9;
+    }
+  }
+}

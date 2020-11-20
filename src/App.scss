@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./Color/Color";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  // font-family: "Yeseva One", cursive;
+}
+
+// common css
+
+ul {
+  list-style: none;
+}
+
+.paragraphColor {
+  color: $PrimaryColor;
+}
+
+.heading {
+  h1 {
+    font-family: "Yeseva One", cursive;
+  }
+  p {
+    width: 415px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $PrimaryColor;
+  }
+}
+
+.headerBg {
+  height: 100vh;
+  background-image: url(https://i.ibb.co/jWvspHM/Group-88-1.png);
+  background-repeat: no-repeat;
+  background-size: 1700px;
+  background-position-x: 55%;
+  background-position-y: -390px;
+}
+
+.secondaryBg {
+  background-image: url(https://i.ibb.co/h8ZtkvV/Group-58.png);
+  background-color: #fafffd;
+  background-position-x: -900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

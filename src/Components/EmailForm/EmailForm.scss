@@ -1,0 +1,30 @@
+.emailForm {
+  background-color: white;
+  width: 700px;
+  height: 80px;
+
+  input {
+    padding: 18px;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    background: linear-gradient(128deg, #1cd9b9 0%, #09b0e8 100%) !important;
+    border-top-left-radius: 20px;
+    border: none;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+    color: white;
+
+    &:active {
+      box-shadow: none !important;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

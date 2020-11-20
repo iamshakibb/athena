@@ -1,0 +1,32 @@
+@import "../../Color/Color";
+
+.services {
+  background-image: url(https://i.ibb.co/cbh94sP/Group-89.png);
+  background-size: 1400px;
+  background-position-x: -300%;
+  background-position-y: -89px;
+  height: 105vh;
+  h1 {
+    font-size: 3em;
+    font-family: "Yeseva One", cursive;
+  }
+
+  p {
+    color: $PrimaryColor;
+  }
+  button {
+    background: linear-gradient(128deg, #1cd9b9 0%, #09b0e8 100%) !important;
+    border-top-left-radius: 20px;
+    border: none;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+    color: white;
+
+    &:active {
+      box-shadow: none !important;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

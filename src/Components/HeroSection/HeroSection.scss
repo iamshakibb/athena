@@ -1,0 +1,12 @@
+@import "../../Color/Color.scss";
+
+.heroContainer {
+  h1 {
+    font-size: 3.9em;
+    font-family: "Yeseva One", cursive;
+  }
+
+  p {
+    color: $PrimaryColor;
+  }
+}
